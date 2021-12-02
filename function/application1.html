@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	// 함수는 코드의 재활용성을 높여준다.
+	numbering = function() {	// 함수 전체가 numbering이라는 변수에 대입된 것. 이 변수는 함수의 속성을 갖게 됨.
+		i = 0;
+		while(i < 10) {
+			document.write(i);
+			i++;
+		}
+	}
+	numbering();
+	
+	/*
+	(function() {
+		i = 0;
+		while(i < 10) {
+			document.write(i);
+			i++;
+		}
+	})();						// 익명함수. 1회성으로 사용할 때 쓰임.
+	*/
+</script>
+</body>
+</html>

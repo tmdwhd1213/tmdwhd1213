@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	var a;
+	//alert(a); // undefined	<< 이는 프로그래머가 의도치 않은 상황
+	 	var b = null;
+	//alert(a); // null	<< 이는 의도한 상황
+	//alert(a == b); 	// true (둘 다 값이 없으니까)
+	alert(a === b);		// false (엄밀히 의도한 것과 의도치 않은 것은 다르니까)
+	//alert( true == 1);	// true , 1을 제외한 나머지 숫자 false
+	//alert( true == 2); 	// false
+	//alert( true === 1); 	// false	strictEqOp는 진짜 같은 것만 true로 나타낸다.
+	//alert( 0 === -0);		// true
+	//alert( NaN === NaN);	// false
+</script>
+</body>
+</html>

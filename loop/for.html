@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	/* 이걸 for문으로 바꿔보자.
+	var i = 0;
+
+
+	while(i < 10) {										//false가 될 때까지 계속 돎.
+		document.write("Coding everyone! " + i + " <br />");		//반복해서 실행할 코드
+		i += 1;
+	}													//무한루프 while(true)
+	*/
+
+	// i++는 기존값을 먼저 출력하고 할 것 다 하고 1을 더하는 것이고, ++i는 먼저 1을 더한 값을 출력한다. 둘 다 1씩 증가한다는 측면에서는 같은 의미지만, 완전히 동일한 기능을 하는 것은 아니다.
+	
+	for(var i = 0; i < 10; i++) {	//var i = 0; << 초기화, 0 < 10; << true, 반복문 후에 i는 1씩 증가라는 뜻.
+		document.write("Coding everyone!" + i + "<br />");
+	}
+</script>
+</body>
+</html>

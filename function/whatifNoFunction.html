@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	// 함수의 효용성 : 재사용성 (좋은 부품을 만들기!), 유지보수의 용이!
+	function numbering() {
+		var i = 0;
+		while(i < 20) {
+			document.write(i + "<br />");
+			i++;
+		}
+	}
+	for(var j = 0; j < 1000; j++) {
+		numbering();
+	}
+
+
+</script>
+</body>
+</html>

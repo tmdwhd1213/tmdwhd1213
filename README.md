@@ -1,5 +1,5 @@
 - 👋 Hi, I’m Seung-Jong Oh
-- 👀 I’m interested in Weight Training
+- 👀 I’m interested in Front-End, Web Engineer
 - 🌱 I’m currently learning JavaScript
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me tmdwhd319@gmail.com

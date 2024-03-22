@@ -1,7 +1,6 @@
 - 👋 Hi, I’m Seung-Jong Oh
 - 👀 I’m interested in Front-End, Web Engineer
-- 🌱 I’m currently learning JavaScript
-- 💞️ I’m looking to collaborate on ...
+- 🌱 I’m currently learning JavaScript, React.js, Tailwind CSS, Next.js
 - 📫 How to reach me tmdwhd319@gmail.com
 
 <!---
